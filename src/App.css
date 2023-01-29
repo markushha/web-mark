@@ -1,7 +1,14 @@
 .wrapper {
     display: flex;
-    flex-direction: row;
-    background: rgb(37, 39, 53);
+    flex-direction: column;
+    background: #FFC93C;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .main {

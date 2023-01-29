@@ -1,15 +1,12 @@
-import './Navbar.css';
-import { GoThreeBars } from 'react-icons/go';
-import { useState } from "react";
+import "./Navbar.css";
 
 export default function Navbar() {
-    const [iconColor, setIconColor] = useState("#B2B2B2");
 
-    return (
-        <div className="wrapper-nav">
-            <div className="item options" onMouseEnter={() => setIconColor("white")} onMouseLeave={() => setIconColor("#B2B2B2")}>
-                <p style={{ fontSize: "39px", color: iconColor, transition: "0  .5s ease" }}><GoThreeBars/></p>
-            </div>
-        </div>
-    )
+  return (
+    <nav className="wrapper-nav">
+      <div className="nav__item"><p className="nav__item__text"><code>Home</code></p></div>
+      <div className="nav__item"><p className="nav__item__text"><code>Social</code></p></div>
+      <div className="nav__item"><p className="nav__item__text"><code>Contacts</code></p></div>
+    </nav>
+  );
 }

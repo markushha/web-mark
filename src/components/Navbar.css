@@ -1,11 +1,22 @@
 .wrapper-nav {
-    margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-.item {
-    margin: 15px;
+.nav__item {
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s ease;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
 
-.item:hover {
+.nav__item:hover {
+    background: rgb(240, 240, 240);
+    color: black;
+}
 
+.nav__item__text {
+    font-size: 1.5rem;
 }
