@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 7rem;
+  margin-bottom: 6rem;
 }
 
 .bio-img {
@@ -11,6 +11,11 @@
   height: 300px;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.bio-img:hover {
+  transform: scale(1.04);
 }
 
 .title {
