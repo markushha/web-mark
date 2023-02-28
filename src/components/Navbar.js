@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="wrapper-nav">
       <div className="nav__item"><p className="nav__item__text"><code>Me</code></p></div>
       <div className="nav__item"><p className="nav__item__text"><code>Socials</code></p></div>
-      <div className="nav__item"><p className="nav__item__text"><code>Contacts</code></p></div>
+      <div className="nav__item"><p className="nav__item__text"><code>Projects</code></p></div>
     </nav>
   );
 }
